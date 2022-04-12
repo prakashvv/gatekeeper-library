@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8sallowedrepos
+  displayName: Restrict Allowed Repos
   annotations:
     description: >-
       Requires container images to begin with a string from the specified list.

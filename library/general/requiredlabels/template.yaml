@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8srequiredlabels
+  displayName: Enforce Labels
   annotations:
     description: >-
       Requires resources to contain specified labels, with values matching

@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8suniqueserviceselector
+  displayName: Enforce Unique Services Selectors
   annotations:
     description: >-
       Requires Services to have unique selectors within a namespace.

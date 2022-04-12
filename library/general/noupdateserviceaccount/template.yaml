@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: noupdateserviceaccount
+  displayName: Restrict ServiceAccount Update
   annotations:
     description: "Blocks updating the service account on resources that abstract over Pods. This policy is ignored in audit mode."
 spec:

@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8scontainerrequests
+  displayName: Enforce Resource Requests
   annotations:
     description: >-
       Requires containers to have memory and CPU requests set and constrains

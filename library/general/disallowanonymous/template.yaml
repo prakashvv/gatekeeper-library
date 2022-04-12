@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8sdisallowanonymous
+  displayName: Restrict Anonymous Roles
   annotations:
     description: Disallows associating ClusterRole and Role resources to the system:anonymous user and system:unauthenticated group.
 spec:

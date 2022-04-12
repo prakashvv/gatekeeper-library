@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8sdisallowedtags
+  displayName: Enforce Image Tags
   annotations:
     description: >-
       Requires container images to have an image tag different from the ones in
